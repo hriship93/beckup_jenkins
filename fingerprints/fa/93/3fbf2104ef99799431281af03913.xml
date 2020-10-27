@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-10-24 15:26:01.631 UTC</timestamp>
+  <original>
+    <name>Build_Job</name>
+    <number>5</number>
+  </original>
+  <md5sum>fa933fbf2104ef99799431281af03913</md5sum>
+  <fileName>webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>deploy_to_Prod</string>
+      <ranges>6-7</ranges>
+    </entry>
+    <entry>
+      <string>Build_Job</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>deploy_to_Dev</string>
+      <ranges>6-7</ranges>
+    </entry>
+    <entry>
+      <string>deploy_to_Test</string>
+      <ranges>5-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

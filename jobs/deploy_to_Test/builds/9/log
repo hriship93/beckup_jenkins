@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4LDX9/o8bCr1ld3OmBdZhsmR7ZDusyoLqDQXVFP0j2ycAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH2n0syclHgvIAsAumWeusQAAAA=[0mBuild_Job" build number [8mha:////4O0j16EGW6TIx7d/CKB6eHvxvVT51FuyZmO3g+Fx5ETxAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfafSzJyUeC8gywIA/u8GncUAAAA=[0m8
+originally caused by:
+ Started by user [8mha:////4LyvC/jNDlDZiYi26cF8/wIt0s3+oGYWHKXWW1tdhD5wAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy_to_Test
+[Checks API] No suitable checks publisher found.
+Copied 1 artifact from "[8mha:////4NfNo2e0pebbFnsWW3htSgf/owt96VR6rzmbk/G5LiMWAAAAjh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLGHg18/KT9J3Ks3MSYn3ArIAjYpx+JQAAAA=[0mBuild_Job" build number [8mha:////4H3JcgtQn8RIHJ5HrSyw0eqWoOMenD6O9lVQ9DUmpOw8AAAAjx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYRDUz8pP0ncqzcxJifcCsiz0AfOgq2yWAAAA[0m8
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/deploy_to_Test/webapp/target/webapp.war to container Tomcat 7.x Remote with context null
+  Redeploying [/var/lib/jenkins/workspace/deploy_to_Test/webapp/target/webapp.war]
+  Undeploying [/var/lib/jenkins/workspace/deploy_to_Test/webapp/target/webapp.war]
+  Deploying [/var/lib/jenkins/workspace/deploy_to_Test/webapp/target/webapp.war]
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

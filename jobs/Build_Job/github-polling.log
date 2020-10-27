@@ -1,0 +1,13 @@
+Started on Oct 25, 2020 4:41:00 AM
+Started by event from 140.82.115.246 ⇒ http://34.201.61.197:8080/github-webhook/ on Sun Oct 25 04:40:58 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 08fc7cafc2c46d884b5f425dc581b3d8da3750d5 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git ls-remote -h -- https://github.com/hriship93/maven-project-1.git # timeout=10
+Found 15 remote heads on https://github.com/hriship93/maven-project-1.git
+[poll] Latest remote head revision on refs/heads/master is: 67bc67729d28eb6c936b3bd8528b5f2f1b9b0c41
+Done. Took 0.13 sec
+Changes found

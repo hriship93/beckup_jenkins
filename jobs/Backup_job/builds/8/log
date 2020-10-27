@@ -1,0 +1,72 @@
+Started by user [8mha:////4LyvC/jNDlDZiYi26cF8/wIt0s3+oGYWHKXWW1tdhD5wAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Backup_job
+[Checks API] No suitable checks publisher found.
+[Backup_job] $ /bin/sh -xe /tmp/jenkins9100280721274103434.sh
++ cd /var/lib/jenkins
++ git add -- com.cloudbees.hudson.plugins.folder.config.AbstractFolderConfiguration.xml config.xml credentials.xml github-plugin-configuration.xml hudson.maven.MavenModuleSet.xml hudson.model.UpdateCenter.xml hudson.plugins.copyartifact.CopyArtifactConfiguration.xml hudson.plugins.copyartifact.TriggeredBuildSelector.xml hudson.plugins.git.GitSCM.xml hudson.plugins.git.GitTool.xml hudson.tasks.Mailer.xml hudson.tasks.Maven.xml hudson.tasks.Shell.xml hudson.triggers.SCMTrigger.xml io.jenkins.plugins.junit.storage.JunitTestResultStorageConfiguration.xml jenkins.fingerprints.GlobalFingerprintConfiguration.xml jenkins.model.ArtifactManagerConfiguration.xml jenkins.model.GlobalBuildDiscarderConfiguration.xml jenkins.model.JenkinsLocationConfiguration.xml jenkins.mvn.GlobalMavenConfig.xml jenkins.security.apitoken.ApiTokenPropertyConfiguration.xml jenkins.security.QueueItemAuthenticatorConfiguration.xml jenkins.security.ResourceDomainConfiguration.xml jenkins.security.UpdateSiteWarningsConfiguration.xml jenkins.tasks.filters.EnvVarsFilterGlobalConfiguration.xml jenkins.telemetry.Correlator.xml nodeMonitors.xml org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder.xml org.jenkinsci.plugins.gitclient.JGitApacheTool.xml org.jenkinsci.plugins.gitclient.JGitTool.xml org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml org.jenkinsci.plugins.workflow.flow.GlobalDefaultFlowDurabilityLevel.xml org.jenkinsci.plugins.workflow.libs.GlobalLibraries.xml org.jenkins.plugins.lockableresources.LockableResourcesManager.xml queue.xml jobs/Backup_job/config.xml jobs/Build_Job/config.xml jobs/demo/config.xml jobs/deploy_to_Dev/config.xml jobs/deploy_to_Prod/config.xml jobs/deploy_to_Test/config.xml jobs/pipeline_demo/config.xml userContent/readme.txt
++ '[' -d users ']'
+++ ls users/admin_8274091530651306034/config.xml users/noreply_4212993225330592470/config.xml
++ user_configs='users/admin_8274091530651306034/config.xml
+users/noreply_4212993225330592470/config.xml'
++ '[' -n 'users/admin_8274091530651306034/config.xml
+users/noreply_4212993225330592470/config.xml' ']'
++ git add users/admin_8274091530651306034/config.xml users/noreply_4212993225330592470/config.xml
+++ awk '{print $3}'
+++ grep deleted
+++ git status
++ to_remove=
++ '[' -n '' ']'
++ git commit -m 'Automated Jenkins commit'
+[main 66c8587] Automated Jenkins commit
+ 45 files changed, 694 insertions(+)
+ create mode 100755 com.cloudbees.hudson.plugins.folder.config.AbstractFolderConfiguration.xml
+ create mode 100755 config.xml
+ create mode 100755 credentials.xml
+ create mode 100755 github-plugin-configuration.xml
+ create mode 100755 hudson.maven.MavenModuleSet.xml
+ create mode 100755 hudson.model.UpdateCenter.xml
+ create mode 100755 hudson.plugins.copyartifact.CopyArtifactConfiguration.xml
+ create mode 100755 hudson.plugins.copyartifact.TriggeredBuildSelector.xml
+ create mode 100755 hudson.plugins.git.GitSCM.xml
+ create mode 100755 hudson.plugins.git.GitTool.xml
+ create mode 100755 hudson.tasks.Mailer.xml
+ create mode 100755 hudson.tasks.Maven.xml
+ create mode 100755 hudson.tasks.Shell.xml
+ create mode 100755 hudson.triggers.SCMTrigger.xml
+ create mode 100755 io.jenkins.plugins.junit.storage.JunitTestResultStorageConfiguration.xml
+ create mode 100755 jenkins.fingerprints.GlobalFingerprintConfiguration.xml
+ create mode 100755 jenkins.model.ArtifactManagerConfiguration.xml
+ create mode 100755 jenkins.model.GlobalBuildDiscarderConfiguration.xml
+ create mode 100755 jenkins.model.JenkinsLocationConfiguration.xml
+ create mode 100755 jenkins.mvn.GlobalMavenConfig.xml
+ create mode 100755 jenkins.security.QueueItemAuthenticatorConfiguration.xml
+ create mode 100755 jenkins.security.ResourceDomainConfiguration.xml
+ create mode 100755 jenkins.security.UpdateSiteWarningsConfiguration.xml
+ create mode 100755 jenkins.security.apitoken.ApiTokenPropertyConfiguration.xml
+ create mode 100755 jenkins.tasks.filters.EnvVarsFilterGlobalConfiguration.xml
+ create mode 100755 jenkins.telemetry.Correlator.xml
+ create mode 100755 jobs/Backup_job/config.xml
+ create mode 100755 jobs/Build_Job/config.xml
+ create mode 100755 jobs/demo/config.xml
+ create mode 100755 jobs/deploy_to_Dev/config.xml
+ create mode 100755 jobs/deploy_to_Prod/config.xml
+ create mode 100755 jobs/deploy_to_Test/config.xml
+ create mode 100755 jobs/pipeline_demo/config.xml
+ create mode 100755 nodeMonitors.xml
+ create mode 100755 org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
+ create mode 100755 org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder.xml
+ create mode 100755 org.jenkinsci.plugins.gitclient.JGitApacheTool.xml
+ create mode 100755 org.jenkinsci.plugins.gitclient.JGitTool.xml
+ create mode 100755 org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+ create mode 100755 org.jenkinsci.plugins.workflow.flow.GlobalDefaultFlowDurabilityLevel.xml
+ create mode 100755 org.jenkinsci.plugins.workflow.libs.GlobalLibraries.xml
+ create mode 100644 queue.xml
+ create mode 100755 userContent/readme.txt
+ create mode 100755 users/admin_8274091530651306034/config.xml
+ create mode 100755 users/noreply_4212993225330592470/config.xml
++ git push -q -u origin main
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+[Checks API] No suitable checks publisher found.
+Finished: FAILURE
